@@ -50,6 +50,6 @@ def callback_worker(call):
         bot.send_message(call.message.chat.id, "Nice to meet you!")
         bot.register_next_step_handler(call.message, reg_age)
 
-        
+
 
 bot.polling()
